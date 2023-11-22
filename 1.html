@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html
+ 
+lang="en">
+
+<head>
+
+  
+<meta
+ 
+charset="UTF-8">
+
+  
+<meta
+ 
+name="viewport"
+ 
+content="width=device-width, initial-scale=1.0">
+
+  
+<title>My Portfolio</title>
+
+  
+<link
+ 
+rel="stylesheet"
+ 
+href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+
+  <main>
+    <section class="about-me">
+      <h2>About Me</h2>
+      <img src="image.jpg" alt="My Image">
+      <p>I am a creative and passionate web developer with a strong eye for detail. I have a proven track record of developing high-quality, user-friendly websites that meet the needs of my clients. I am also a skilled graphic designer and have a deep understanding of HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="project1.jpg" alt="Project 1 Image">
+        <h3>Project 1</h3>
+        <p>This is a description of my first project.</p>
+      </div>
+      <div class="project">
+        <img src="project2.jpg" alt="Project 2 Image">
+        <h3>Project 2</h3>
+        <p>This is a description of my second project.</p>
+      </div>
+      <div class="project">
+        <img src="project3.jpg" alt="Project 3 Image">
+        <h3>Project 3</h3>
+        <p>This is a description of my third project.</p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Please feel free to contact me using the form below.</p>
+
+      
+<form>
+
+        
+<label
+ 
+for="name">Name:</label>
+
+        
+<input
+ 
+type="text"
+ 
+id="name">
+
+        
+<label
+ 
+for="email">Email:</label>
+
+        
+<input
+ 
+type="email"
+ 
+id="email">
+
+        
+<label
+ 
+for="message">Message:</label>
+
+        
+<textarea
+ 
+id="message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio</p>
+  </footer>
+</body>
+</html>
+
+Use code with caution. Learn more
+CSS
+
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #ffcccc;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.about-me img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: 300px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.contact {
+  text-align: center;
+}
+
+form {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #ffcccc;
+  padding: 20px;
+  text-align: center;
+}
+
